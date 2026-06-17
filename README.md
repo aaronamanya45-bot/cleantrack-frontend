@@ -68,6 +68,12 @@ Keep `VITE_API_URL=http://localhost:5000/api` in the frontend `.env`.
 
 Keep `FRONTEND_URL=http://localhost:5173` in the backend `.env`. The backend also allows common local Vite fallback ports, including `5174`, for development.
 
+If the backend uses another port, update the frontend `.env` to match:
+
+```env
+VITE_API_URL=http://localhost:5002/api
+```
+
 ## Pages and Routes
 
 Public pages:
