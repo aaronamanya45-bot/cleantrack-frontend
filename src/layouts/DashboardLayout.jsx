@@ -8,7 +8,8 @@ const menus = {
     ["My Locations", "/customer/locations"],
     ["Add Location", "/customer/locations/new"],
     ["Report Full Bin", "/customer/report-bin"],
-    ["Pickup Requests", "/customer/pickups"]
+    ["Pickup Requests", "/customer/pickups"],
+    ["My Schedules", "/customer/schedules"]
   ],
   driver: [
     ["Dashboard", "/driver"],
@@ -27,7 +28,8 @@ const menus = {
     ["Users", "/admin/users"],
     ["Pickups", "/admin/pickups"],
     ["Companies", "/admin/companies"],
-    ["Categories", "/admin/categories"]
+    ["Categories", "/admin/categories"],
+    ["Schedules", "/admin/schedules"]
   ]
 };
 
