@@ -166,4 +166,4 @@ The frontend now includes a customer and admin UI for the recurring pickup sched
 - New routes added in `src/App.jsx`
 - New sidebar links added in `src/layouts/DashboardLayout.jsx`:
   - Customer: **My Schedules**
-  - Admin: **Schedules**
+  - Admin: **Schedules**# CleanTrack Frontend — Learning Notes
