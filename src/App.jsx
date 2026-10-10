@@ -15,7 +15,6 @@ import ReportFullBin from "./pages/customer/ReportFullBin";
 import MyPickupRequests from "./pages/customer/MyPickupRequests";
 import PickupDetails from "./pages/customer/PickupDetails";
 import MySchedules from "./pages/customer/MySchedules";
-import MySchedules from "./pages/customer/MySchedules";
 import DriverDashboard from "./pages/driver/DriverDashboard";
 import MyAssignedPickups from "./pages/driver/MyAssignedPickups";
 import PickupJobDetails from "./pages/driver/PickupJobDetails";
@@ -31,7 +30,7 @@ import ManagePickups from "./pages/admin/ManagePickups";
 import ManageSchedules from "./pages/admin/ManageSchedules";
 import ManageCompanies from "./pages/admin/ManageCompanies";
 import ManageCategories from "./pages/admin/ManageCategories";
-import ManageSchedules from "./pages/admin/ManageSchedules";
+
 
 const App = () => (
   <BrowserRouter>

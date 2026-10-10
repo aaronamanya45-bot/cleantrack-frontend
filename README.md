@@ -140,3 +140,30 @@ All seed accounts use password `password123`.
 ## Repository Notes
 
 This folder is its own Git repository. `node_modules/`, `dist/`, `.env`, and npm debug logs are ignored.
+
+## New Feature: Recurring Pickup Schedules
+
+The frontend now includes a customer and admin UI for the recurring pickup schedules feature.
+
+### New Pages
+
+- `/customer/schedules` — **My Schedules** (customer)
+  - Create a recurring pickup (location, waste type, day of week, bin level, optional note)
+  - See own schedules with status badges (pending / approved / rejected)
+  - Cancel a schedule while it is still pending
+
+- `/admin/schedules` — **Schedule Approvals** (admin)
+  - Filter schedules by pending / approved / rejected
+  - Approve or reject a schedule (with an optional rejection note)
+  - **Generate This Week's Pickups** button — auto-creates pickup requests from every approved schedule whose day matches today
+
+### New Service
+
+- `src/services/scheduleService.js` — Axios wrapper for the endpoints listed in the backend README.
+
+### Routes and Navigation
+
+- New routes added in `src/App.jsx`
+- New sidebar links added in `src/layouts/DashboardLayout.jsx`:
+  - Customer: **My Schedules**
+  - Admin: **Schedules**
