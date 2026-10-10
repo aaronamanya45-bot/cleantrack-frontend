@@ -170,3 +170,4 @@ The frontend now includes a customer and admin UI for the recurring pickup sched
 ## Feature 1: Recurring Pickup Schedules
 ## Feature 2: Admin Approval Workflow
 ## Feature 3: Auto-Generate Pickups
+## Testing evidence available in submission screenshots
