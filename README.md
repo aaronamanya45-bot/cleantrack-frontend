@@ -168,3 +168,4 @@ The frontend now includes a customer and admin UI for the recurring pickup sched
   - Customer: **My Schedules**
   - Admin: **Schedules**# CleanTrack Frontend — Learning Notes
 ## Feature 1: Recurring Pickup Schedules
+## Feature 2: Admin Approval Workflow
